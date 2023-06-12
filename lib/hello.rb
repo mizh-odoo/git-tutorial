@@ -1,5 +1,7 @@
 
 # Default value is DEFAULT
 # Created by me
-name = ARGV.first || "DEFAULT"
-puts "Hello, #{name}!"
+puts "What's your name"
+my_name = gets.strip
+
+puts "Hello, #{my_name}!"
